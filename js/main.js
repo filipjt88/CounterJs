@@ -2,11 +2,13 @@
 
 
 
-// // select value and buttons
+// selectovanje vrednosti i dugmeta
+// select value and buttons
 let value = document.querySelector("#value");
 let btns  = document.querySelectorAll(".btn");
 
 // set initial count
+// inicijalni brojac
 let count = 0;
 
 btns.forEach(btn => {
@@ -20,7 +22,7 @@ btns.forEach(btn => {
             count = 0;
         }
 
-        
+
         if(count > 0) {
             value.style.color = "green";
         } else if(count < 0) {
