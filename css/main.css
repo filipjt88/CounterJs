@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body {
+    background-color: rgb(33, 68, 103);
+}
+
+.container {
+    margin-top: 150px;
+}
+
+.counter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 150px;
+    border: 2px red dashed;
+    background-color: #ddd;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section h1 {
+    font-size: 4rem;
+}
+
+section span {
+    font-size: 5rem;
+    font-weight: 500;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article button {
+    margin: 10px;
+}
